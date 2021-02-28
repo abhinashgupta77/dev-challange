@@ -1,0 +1,11 @@
+@import "../../styles/global/colors";
+@import "../../styles/global/typography";
+
+.main {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  max-width: 1300px;
+  margin: auto;
+  padding: 16px 80px 16px 10px;
+}

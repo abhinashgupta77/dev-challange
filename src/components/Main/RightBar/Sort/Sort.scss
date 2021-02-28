@@ -1,0 +1,30 @@
+@import "../../../../styles/global/colors";
+@import "../../../../styles/global/typography";
+
+.custom {
+  display: flex;
+  gap: 10px;
+}
+.MuiFormControl-root.condition {
+  min-width: 114px;
+}
+.MuiFormControl-root.delivery {
+  min-width: 160px;
+}
+.custom__dropdown .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(14px, -3px) scale(0.75);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.custom__dropdown .MuiInputLabel-outlined {
+  transform: translate(14px, 12px) scale(1);
+}
+.custom__dropdown__select.MuiInputBase-root {
+  font-family: $Inter;
+}
+.custom__dropdown__select .MuiOutlinedInput-input {
+  padding: 10px 14px;
+}
+.custom__dropdown__select .MuiOutlinedInput-notchedOutline {
+  border-color: #5a5b6a;
+}

@@ -1,0 +1,90 @@
+@import "../../../../styles/global/colors";
+@import "../../../../styles/global/typography";
+
+.filter__accordion {
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24),
+    0px 2px 4px rgba(90, 91, 106, 0.24) !important;
+  border-radius: 4px !important;
+  margin-bottom: 20px;
+
+  &::before {
+    display: none;
+  }
+
+  .MuiAccordionSummary-root,
+  .MuiAccordionSummary-root.Mui-expanded {
+    min-height: 40px;
+
+    .MuiAccordionSummary-content {
+      margin: 8px 0;
+
+      .MuiTypography-body1 {
+        letter-spacing: 0.44px;
+        color: #19191d;
+      }
+    }
+    .MuiAccordionSummary-content.Mui-expanded {
+      .MuiTypography-body1 {
+        font-family: $Inter;
+        font-weight: 500;
+        letter-spacing: 0.022em;
+      }
+    }
+    .MuiIconButton-root {
+      padding: 8px;
+      color: #2264d1;
+    }
+    .MuiAccordionSummary-expandIcon.Mui-expanded {
+      color: #4a4b57;
+    }
+  }
+
+  .MuiFormGroup-root {
+      width: 100%;
+    .MuiFormControlLabel-root {
+      .PrivateSwitchBase-root-1 {
+        padding-right: 16px;
+      }
+      .MuiTypography-body1 {
+        font-family: $Inter;
+        font-size: 16px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.0275em;
+        color: #19191d;
+      }
+    }
+  }
+}
+.filter__accordion.MuiAccordion-root.Mui-expanded {
+  background-color: #f7f7fa;
+}
+.MuiAccordionDetails-root {
+  padding: 0px 16px 16px;
+}
+.filter__variant {
+  background: #ffffff;
+  border: 1px solid #9dc2ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  cursor: pointer;
+
+  .filter__variant_type {
+    font-family: $Quicksand;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2264d1;
+  }
+}

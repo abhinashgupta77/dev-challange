@@ -1,0 +1,36 @@
+@import "../../styles/global/colors";
+@import "../../styles/global/typography";
+
+.nav {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+  padding: 16px 54px 16px 10px;
+}
+.nav__item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  min-height: 70px;
+  min-width: 100px;
+  justify-content: space-between;
+}
+.nav__item__name {
+  font-family: $Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.018em;
+  color: #787885;
+
+  &.active {
+    color: #2979ff;
+  }
+}
