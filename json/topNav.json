@@ -1,51 +1,51 @@
 [
   {
     "name": "Clothing & Shoes",
-    "icon": "../images/Clothing&Shoes.svg"
+    "icon": "./images/Clothing&Shoes.svg"
   },
   {
     "name": "Electrical Tools",
-    "icon": "../images/ElectricalTools.svg"
+    "icon": "./images/ElectricalTools.svg"
   },
   {
     "name": "Entertainment",
-    "icon": "../images/Entertainment.svg"
+    "icon": "./images/Entertainment.svg"
   },
   {
     "name": "Growing & Garden",
-    "icon": "../images/Growing&Garden.svg"
+    "icon": "./images/Growing&Garden.svg"
   },
   {
     "name": "Kitchen Accessories",
-    "icon": "../images/KitchenAccessories.svg"
+    "icon": "./images/KitchenAccessories.svg"
   },
   {
     "name": "Mother Care",
-    "icon": "../images/MotherCare.svg"
+    "icon": "./images/MotherCare.svg"
   },
   {
     "name": "Music",
-    "icon": "../images/Music.svg"
+    "icon": "./images/Music.svg"
   },
   {
     "name": "Pets",
-    "icon": "../images/Pets.svg"
+    "icon": "./images/Pets.svg"
   },
   {
     "name": "Sport & Lifestyle",
-    "icon": "../images/Sport&Lifestyle.svg"
+    "icon": "./images/Sport&Lifestyle.svg"
   },
   {
     "name": "Toys & Entertainment",
-    "icon": "../images/Toys&Entertainment.svg"
+    "icon": "./images/Toys&Entertainment.svg"
   },
   {
     "name": "Travel Equipment",
-    "icon": "../images/TravelEquipment.svg"
+    "icon": "./images/TravelEquipment.svg"
   },
   {
     "name": "Vintage",
-    "icon": "../images/Vintage.svg"
+    "icon": "./images/Vintage.svg"
   }
 ]
 
